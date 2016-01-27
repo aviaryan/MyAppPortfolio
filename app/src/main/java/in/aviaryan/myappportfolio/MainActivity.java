@@ -27,9 +27,7 @@ public class MainActivity extends AppCompatActivity {
                 public void onClick(View view) {
                     Button b = (Button) view;
                     CharSequence text = "This button will launch my " + b.getText().toString() + " app";
-                    int duration = Toast.LENGTH_SHORT;
-                    Toast toast = Toast.makeText(getApplicationContext(), text, duration);
-                    toast.show();
+                    Toast.makeText(getApplicationContext(), text, Toast.LENGTH_SHORT).show();
                 }
             });
         }
