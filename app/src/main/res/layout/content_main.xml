@@ -40,7 +40,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="50dp"
                 android:background="@color/colorOrange"
-                android:minWidth="250sp"
+                android:minWidth="@dimen/button_min_width"
                 android:text="Spotify Streamer" />
 
             <Button
@@ -49,9 +49,9 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/button1"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="@dimen/button_space_between"
                 android:background="@color/colorOrange"
-                android:minWidth="250sp"
+                android:minWidth="@dimen/button_min_width"
                 android:text="Super Duo" />
 
             <Button
@@ -60,9 +60,9 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/button2"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="@dimen/button_space_between"
                 android:background="@color/colorOrange"
-                android:minWidth="250sp"
+                android:minWidth="@dimen/button_min_width"
                 android:text="Build it Bigger" />
 
             <Button
@@ -71,9 +71,9 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/button3"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="@dimen/button_space_between"
                 android:background="@color/colorOrange"
-                android:minWidth="250sp"
+                android:minWidth="@dimen/button_min_width"
                 android:text="XYZ Reader" />
 
             <Button
@@ -82,9 +82,9 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/button4"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="@dimen/button_space_between"
                 android:background="@color/colorOrange"
-                android:minWidth="250sp"
+                android:minWidth="@dimen/button_min_width"
                 android:text="Capstone" />
 
         </RelativeLayout>
