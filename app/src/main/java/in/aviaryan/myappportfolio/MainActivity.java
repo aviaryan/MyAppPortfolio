@@ -26,8 +26,8 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View view) {
                     Button b = (Button) view;
-                    CharSequence text = "This button will launch my " + b.getText().toString() + " app";
-                    Toast.makeText(getApplicationContext(), text, Toast.LENGTH_SHORT).show();
+                    String message = String.format(getResources().getString(R.string.launchmsg), b.getText().toString());
+                    Toast.makeText(getApplicationContext(), message, Toast.LENGTH_SHORT).show();
                 }
             });
         }
